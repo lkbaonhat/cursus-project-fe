@@ -1,0 +1,123 @@
+.Blog-Page {
+  .Blog-Detail {
+    max-width: 800px;
+    margin: 40px auto;
+    overflow: hidden;
+    padding: 0 50px;
+
+    img {
+      border-radius: 5px;
+      width: 100%;
+      height: auto;
+    }
+    .view {
+      p {
+        font-size: 14px;
+        color: #686f7a;
+        border-bottom: 1px solid #e5e5e5;
+        padding: 25px 0;
+      }
+    }
+
+    .Content {
+      margin-top: 30px;
+      h3 {
+        font-size: 20px;
+        color: #333;
+        margin-bottom: 20px;
+        font-weight: 500;
+        line-height: 1.4;
+      }
+
+      p {
+        font-size: 14px;
+        line-height: 26px;
+        color: #686f7a;
+        font-weight: 400;
+        margin-bottom: 30px;
+      }
+    }
+  }
+  .pagination {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 50px;
+    
+    .previous-section{
+        margin-right: 100px;
+    }
+    .next-section{
+        margin-left: 150px;
+    }
+    .previous-section,
+    .next-section {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: #666;
+      transition: transform 0.3s ease, background-color 0.3s ease;
+      cursor: pointer;
+
+      &:hover {
+        .prev,
+        .next {
+          color: #333;
+        }
+
+        .prev-title,
+        .next-title {
+          color: #555;
+        }
+
+        .GrPrevious,
+        .GrNext {
+          color: #666;
+        }
+      }
+    }
+
+    .previous-section:hover {
+      transform: translateX(-10px);
+    }
+
+    .next-section:hover {
+      transform: translateX(10px);
+    }
+
+    .text-container {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .prev {
+      margin: 0 0 6px;
+      font-weight: bold;
+    }
+    .next {
+      text-align: right;
+
+      font-weight: bold;
+      margin: 0 0 6px;
+      vertical-align: baseline;
+    }
+    .prev-title,
+    .next-title {
+      color: #999;
+      font-size: 0.9rem;
+      align-items: center;
+      gap: 5px;
+      .right-text {
+        display: block;
+        text-align: right;
+      }
+    }
+
+    .GrPrevious,
+    .GrNext {
+      font-size: 1.5rem;
+      color: #666;
+    }
+  }
+}

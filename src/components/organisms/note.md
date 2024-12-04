@@ -1,0 +1,1 @@
+chứa component của atoms và molecules

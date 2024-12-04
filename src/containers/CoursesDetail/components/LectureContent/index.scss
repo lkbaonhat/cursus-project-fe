@@ -1,0 +1,217 @@
+.course-content {
+    a {
+        text-decoration: none;
+    }
+
+    float: left;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+    h3 {
+        font-size: 20px;
+        font-weight: 500;
+        font-family: 'Roboto', sans-serif;
+        text-align: left;
+        margin-bottom: 15px;
+        color: #333;
+        float: left;
+    }
+
+    .course-content-right {
+        float: right;
+        padding-top: 3px;
+        display: flex;
+
+        .expand,
+        .lecture,
+        .lecture-time {
+            display: inline-block;
+            margin-right: 30px;
+            vertical-align: middle;
+
+            span {
+                font-size: 14px;
+                font-weight: 500;
+                font-family: 'Roboto', sans-serif;
+                text-align: left;
+                margin-bottom: 0;
+                color: #333;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .lecture-content {
+        margin-top: 4px;
+        float: left;
+        width: 100%;
+
+        a {
+            float: left;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            border: solid 1px #efefef;
+            cursor: pointer;
+            height: auto;
+            margin-top: 3px;
+            padding: 15px 30px 15px 20px;
+            background: #fff;
+            border-radius: 0px;
+            margin-bottom: 0;
+
+            .section-header-left {
+                display: flex;
+                flex-direction: column;
+                flex-basis: 65%;
+
+                .section-title-wrapper {
+                    flex-direction: row;
+                    align-items: center;
+                    display: flex;
+                    color: #505763;
+                    flex: 1 1 auto;
+                    font-size: 18px;
+                    font-weight: 600;
+
+                    .icon-courses {
+                        font-size: 110%;
+                        margin-right: 5px;
+
+
+                    }
+
+                    .section-title-text {
+                        font-size: 16px;
+                        padding-left: 8px;
+                        padding-right: 10px;
+                        color: #333;
+                        font-weight: 500;
+                        font-family: 'Roboto', sans-serif;
+                    }
+                }
+            }
+
+            .section-header-right {
+                display: flex;
+                justify-content: flex-end;
+                color: #505763;
+                flex-basis: 40%;
+
+                .num-items-in-section {
+                    display: block;
+                    margin-right: 20px;
+                    white-space: nowrap;
+                    font-size: 16px;
+                    color: #686f7a;
+                    font-weight: 400;
+                    font-family: 'Roboto', sans-serif;
+                }
+
+                .section-header-length {
+                    text-align: right;
+                    width: 42%;
+                    font-size: 16px;
+                    color: #686f7a;
+                    font-weight: 400;
+                    font-family: 'Roboto', sans-serif;
+                }
+            }
+        }
+
+        .accordion-content {
+            float: left;
+            width: 100%;
+            border-left: 1px solid #efefef;
+            border-right: 1px solid #efefef;
+            background: #fff;
+            max-height: 0;
+            overflow: hidden;
+            opacity: 0;
+            transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
+
+
+
+            .lecture-container {
+                display: flex;
+                padding: 12px 30px 12px 20px;
+                background-color: #fff;
+                border-bottom: 1px solid #efefef;
+                border-top: none;
+                color: #686f7a;
+                letter-spacing: .3px;
+                line-height: 1.33;
+                font-weight: 400;
+                margin-left: 0 !important;
+                align-self: center;
+
+                .left-content {
+                    display: flex;
+                    width: 50%;
+
+                    .icon-file {
+                        font-size: 18px;
+                        line-height: 18px;
+                        color: #afafaf;
+                    }
+
+                    .top {
+                        flex-direction: column-reverse;
+                        display: flex;
+                        margin-left: 10px;
+                        width: 100%;
+
+                        .title {
+                            color: #686f7a;
+                            font-size: 14px;
+                            margin-top: -2px;
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+
+                .details {
+                    display: flex;
+                    justify-content: flex-end;
+                    flex-wrap: wrap;
+                    margin-left: auto;
+                    width: 50%;
+                    font-size: 14px;
+
+                    .content-summary {
+                        color: #686f7a;
+                        flex-direction: row-reverse;
+                        display: flex;
+                        text-align: right;
+                        white-space: nowrap;
+                        width: 40%;
+                    }
+                }
+            }
+        }
+
+        .accordion-content.show {
+            max-height: 1000px;
+            opacity: 1;
+            transition: max-height 0.5s ease-in, opacity 0.5s ease-in;
+        }
+    }
+
+    .btn-show-more {
+        float: left;
+        margin-top: 5px;
+        border: 1px solid #dedfe0;
+        height: 50px;
+        background: #e8e9eb;
+        width: 100%;
+        font-size: 14px;
+        font-weight: 500;
+        font-family: 'Roboto', sans-serif;
+        color: #333;
+        text-align: center;
+        padding: 15px 0;
+        text-decoration: none;
+        cursor: pointer;
+    }
+}

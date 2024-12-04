@@ -1,0 +1,19 @@
+.bill-component {
+    .loading {
+        animation: loading 1.3s backwards infinite;
+        font-weight: bold;
+        font-size: 1.4rem;
+        margin-right: 3px;
+    }
+
+    @keyframes loading {
+        0% {
+            rotate: 0deg;
+        }
+
+        100% {
+            rotate: 360deg;
+        }
+    }
+
+}

@@ -1,0 +1,81 @@
+{
+  "careers": {
+    "title": "Benefits",
+    "subtitle": "Cursus culture is something special, and to complement and support that culture we have some amazing benefits.",
+    "button1": "Check Out Our Open Roles",
+    "work_from_anywhere": {
+      "title": "Work from anywhere"
+    },
+    "work_and_travel": {
+      "title": "Work and Travel"
+    },
+    "flexible_hours": {
+      "title": "Flexible Hours"
+    },
+    "purchasing_leave": {
+      "title": "Purchasing Leave"
+    },
+    "social_events": {
+      "title": "Social Events"
+    },
+    "wellness_program": {
+      "title": "Wellness Program"
+    },
+    "mentoring_program": {
+      "title": "Mentoring Program"
+    },
+    "fundraising": {
+      "title": "Fundraising"
+    },
+    "tabs": {
+      "tab1": {
+        "title": "We are learners"
+      },
+      "tab2": {
+        "title": "We are navigators"
+      },
+      "tab3": {
+        "title": "We are global"
+      },
+      "tab4": {
+        "title": "We make an impact"
+      }
+    },
+    "aboutNav": "About",
+    "blogNav": "Blog",
+    "companyNav": "Company",
+    "careersNav": "Careers",
+    "pressNav": "Press",
+    "title1": "We're a passionate, creative, and global company, come work with us.",
+    "subtitle1": "Working at Cursus",
+    "title2": "Open Roles",
+    "subtitle2": "Cursus is a fast growing company and we're expanding both our Punjab office and international offices.",
+    "button": "Learn More and Apply",
+    "roles": [
+      {
+        "title": "Algorithm Engineer",
+        "location": "India"
+      },
+      {
+        "title": "Chief Technology Officer",
+        "location": "India"
+      },
+      {
+        "title": "Customer Growth & Marketing Analyst",
+        "location": "India"
+      },
+      {
+        "title": "Data Engineer",
+        "location": "India"
+      },
+      {
+        "title": "iOS Developer - Edututs+ San Francisco, CA",
+        "location": "San Francisco, CA"
+      },
+      {
+        "title": "Senior UX Designer",
+        "location": "India"
+      }
+    ]
+  }
+}

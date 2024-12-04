@@ -1,0 +1,88 @@
+.background{
+    height: 70%;
+    padding-left: 30px;
+    padding-top: 30px;
+    font-family: 'Roboto', sans-serif;
+
+    .title__container{
+        margin: 0 0 40px;
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+
+        .title__icon{
+            width: fit-content;
+
+            .iconCmt{
+                margin: 0 4px;
+                top: 50%; 
+                transform: translateY(-100%); 
+                font-size: 18px; 
+                transform: translateX(-3%);
+            }
+        }
+
+        .title__content{
+            font-size: 20px;
+            color: #333333;
+            margin: 0;
+        }
+    }
+
+    .input__container{
+        width: 100%;
+        padding: 0 10px;
+
+        .upload__title{
+            font-size: 14px;
+            color: #333333;
+            margin: 20px 0 14px;
+            font-weight: 500;
+        }  
+        label{
+            width: 100%;
+        }
+        .upload__zone{
+            cursor: pointer;
+            width: 100%;
+            background-color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            outline: none;
+            .dzu-inputLabelWithFiles{
+                width: 100px;
+                min-height: 34px;
+                margin:  20px ;
+            }
+            .dzu-previewStatusContainer{
+                progress{
+                    visibility: hidden;
+                }
+            }
+            .upload__icon{
+                display: flex;
+                flex-direction: column;
+                align-items: center ;
+
+                .iconUpload{
+                    font-size: 30px;
+                    margin-bottom: 10px;
+                    color: rgb(161, 161, 161);
+                }
+
+                .upload__content1{
+                    font-size: 16px;
+                    color: #333333;
+                    font-weight: 500;
+                }
+
+                .upload__content2{
+                    font-size: 12px;
+                    color: #333333;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+}

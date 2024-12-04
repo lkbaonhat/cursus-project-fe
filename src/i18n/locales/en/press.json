@@ -1,0 +1,23 @@
+{
+    "press": {
+        "aboutNav": "About",
+        "blogNav": "Blog",
+        "companyNav": "Company",
+        "careersNav": "Careers",
+        "pressNav": "Press",
+        "mainHeading": "What others are saying",
+        "follow": "Follow",
+        "learn":"Learn more",
+        "help":"Cursus Help Center",
+        "title1":"Cursus in the News",
+        "subtitle1":"For media interviews and inquiries, please send an email to",
+        "date":"March 10, 2020",
+        "newstitle": "Press News Title",
+        "read": "Read More",
+        "more1":"See more news",
+        "title2":"Press Releases",
+        "subtitle2":"For Release from Cursus",
+        "releasetitle": "Press Release Title",
+        "more2":"See more press releases"
+    }
+  }

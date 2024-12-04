@@ -1,0 +1,17 @@
+{
+    "result": {
+        "result": "Kết quả",
+        "right": "Đúng",
+        "wrong": "Sai",
+        "out_of": "Trong số {{count}}",
+        "congratulations": "Chúc mừng! {{name}}.",
+        "eligible_for_certificate": "Bạn đủ điều kiện nhận chứng chỉ này.",
+        "download_certificate": "Tải xuống chứng chỉ",
+        "fail_to_complete": "Bạn đã không hoàn thành chứng chỉ",
+        "not_eligible": "Bạn không đủ điều kiện nhận chứng chỉ này.",
+        "home": "Trang chủ",
+        "certification_center": "Trung tâm chứng chỉ",
+        "try_again": "Thử lại",
+        "next": "Tiếp tục"
+    }
+}

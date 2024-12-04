@@ -1,0 +1,10 @@
+{
+    "feedback": {
+      "send_feedback": "Gửi phản hồi",
+      "email_address": "Địa chỉ email",
+      "describe_issue": "Mô tả vấn đề của bạn hoặc chia sẻ ý tưởng của bạn",
+      "add_screenshots": "Thêm ảnh chụp màn hình",
+      "select_screenshots": "Chọn ảnh chụp màn hình để tải lên",
+      "drag_drop_screenshots": "hoặc kéo và thả ảnh chụp màn hình"
+    }
+  }

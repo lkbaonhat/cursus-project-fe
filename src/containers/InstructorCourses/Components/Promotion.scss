@@ -1,0 +1,30 @@
+.promotion{
+    background-color: var(--background);
+    min-height: 500px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+
+    .image_promotion{
+        width: 200px;
+        object-fit: contain;
+    }
+
+    .title_promotion{
+        font-size: 18px;
+        margin: 20px 0;
+        color: #333;
+        width: 100%;
+        text-align: center;
+    }
+
+    .content_promotion{
+        font-size: 14px;
+        color: #686f7a;
+        width: 100%;
+        text-align: center;
+    }
+}

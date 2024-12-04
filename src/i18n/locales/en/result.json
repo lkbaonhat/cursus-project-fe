@@ -1,0 +1,17 @@
+{
+    "result": {
+        "result": "Result",
+        "right": "Right",
+        "wrong": "Wrong",
+        "out_of": "Out of {{count}}",
+        "congratulations": "Congratulations! {{name}}.",
+        "eligible_for_certificate": "You are passed",
+        "download_certificate": "Download Certificate",
+        "fail_to_complete": "You're fail to complete certificate",
+        "not_eligible": "You are not eligible for this certificate.",
+        "home": "Home",
+        "certification_center": "Certification Center",
+        "try_again": "Try Again",
+        "next": "Next"
+    }
+}

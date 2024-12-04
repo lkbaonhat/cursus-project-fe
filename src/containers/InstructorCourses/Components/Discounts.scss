@@ -1,0 +1,45 @@
+.new-discount{
+    background-color: var(--background);
+    padding: 0 20px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    margin-bottom: 30px;
+
+    .new-discount__title{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 0;
+        font-size: 16px;
+        font-weight: 500;
+        width: 100%;
+    }
+
+    .discount-form{
+        padding: 0 30px ;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        max-height: 0; 
+        opacity: 0;
+        overflow: hidden;
+        transition: max-height 0.8s ease, opacity 0.8s ease;
+
+        &.open {
+            max-height: 500px; 
+            opacity: 1; 
+          }
+        
+        .title-discount-input{
+            margin: 20px 0 10px;
+            font-weight: 400;
+        }
+        .input-discount-group{
+            padding: 10px 20px 10px 14px;
+            width: 280px;
+        }
+        .invalid{
+            color: red;
+        }
+    }
+}

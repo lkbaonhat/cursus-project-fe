@@ -1,0 +1,50 @@
+.card-dash {
+    background: #fff;
+    margin-top: 30px;
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid #efefef;
+    padding: 20px;
+    float: left;
+
+    .card-dash-left {
+        float: left;
+
+        h5 {
+            font-size: 16px;
+            font-weight: 500;
+            margin-bottom: 15px;
+            text-align: left;
+        }
+
+        h2 {
+            font-size: 24px;
+            font-weight: 500;
+            margin-bottom: 15px;
+            text-align: left;
+            margin-top: 0;
+        }
+    }
+
+    .card-dash-right {
+        float: right;
+
+        .engagement-icon {
+            color: #36A2EB;
+            font-size: 18px;
+        }
+
+        .engagement-icon-time {
+            color: #36ac8b;
+            font-size: 20px;
+        }
+
+        .engagement-icon-review {
+            font-size: 20x;
+        }
+
+        .engagement-icon-user {
+            font-size: 18px;
+        }
+    }
+}

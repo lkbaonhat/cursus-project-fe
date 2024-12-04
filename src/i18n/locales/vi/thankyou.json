@@ -1,0 +1,18 @@
+{
+    "thankyou": {
+      "title": "Cảm ơn bạn",
+      "order_confirmed": "Đơn hàng của bạn đã được xác nhận!",
+      "order_number": "Số đơn hàng của bạn:",
+      "click_here": "Nhấp vào đây",
+      "home": "Trang chủ",
+      "shop": "Cửa hàng",
+      "contact_us": "Liên hệ với chúng tôi",
+      "about_us": "Về chúng tôi",
+      "newsletter": "Bản tin",
+      "faqs": "Câu hỏi thường gặp",
+      "privacy_policy": "Chính sách bảo mật",
+      "terms": "Điều khoản",
+      "copyright": "© 2023 Cursus. All Rights Reserved.",
+      "backhome": "Về lại trang chủ"
+    }
+  }

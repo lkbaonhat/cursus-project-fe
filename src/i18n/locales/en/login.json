@@ -1,0 +1,14 @@
+{
+    "login": {
+      "welcome_back": "Welcome Back",
+      "login_to_account": "Log In to Your Cursus Account!",
+      "email": "Email",
+      "password": "Password",
+      "invalid_email": "Invalid email",
+      "invalid_password": "Password must contain at least 6 characters",
+      "forgot_password": "Forgot Password",
+      "send": "Send",
+      "dont_have_account": "Don't have an account?",
+      "sign_up": "Sign Up"
+    }
+  }

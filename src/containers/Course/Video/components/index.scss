@@ -1,0 +1,56 @@
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 99.4vw;
+  height: calc(100vh - 240px);
+  background-color: black;
+  overflow: hidden;
+  padding-left: clamp(16px, 13vw, 200px); /* Responsive padding left */
+  padding-right: clamp(16px, 13vw, 200px); /* Responsive padding right */
+  box-sizing: border-box;
+
+  iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    object-fit: cover;
+  }
+
+  @media (max-width: 1024px) {
+    .video-container {
+      padding: 0;
+      height: calc(100vh - 200px); /* Điều chỉnh chiều cao nếu cần */
+      width: 100vw;
+
+      iframe {
+        object-fit: contain; /* Đảm bảo video không bị cắt trên màn hình nhỏ */
+        width: 70vw;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+      padding: 0;
+      height: calc(100vh - 300px); /* Điều chỉnh chiều cao nếu cần */
+      width: 100vw;
+  
+      iframe{
+      object-fit: contain; /* Đảm bảo video không bị cắt trên màn hình nhỏ */
+      width: 100vw;
+      }
+    }
+
+    @media (max-width: 480px) {
+        padding: 0;
+        height: calc(100vh - 330px); /* Điều chỉnh chiều cao nếu cần */
+        width: 100vw;
+        
+        iframe {
+         object-fit: contain; /* Đảm bảo video không bị cắt trên màn hình nhỏ */
+         width: 100vw;
+       }
+      }
+}
+
+

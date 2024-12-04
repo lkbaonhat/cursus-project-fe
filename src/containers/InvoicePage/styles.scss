@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f3f4f6;
+}
+
+.min-h-screen {
+  min-height: 100vh;
+}
+
+.invoice-container {
+  background-color: #ffffff;
+  width: 800px; 
+  margin: 2rem auto;
+  border-radius: 8px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.invoice-header {
+  background-color: #1e293b;
+  color: white;
+  padding: 20px 30px;
+  border-radius: 8px 8px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.invoice-header img {
+  height: 30px; 
+  cursor: pointer;
+}
+
+.invoice-header-invoice {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.invoice-content {
+  padding: 30px;
+}
+
+.invoice-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.invoice-info div {
+  font-size: 14px; 
+  color: #6b7280;
+}
+
+.invoice-info h2 {
+  font-size: 18px; 
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.invoice-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+
+.invoice-table th,
+.invoice-table td {
+  padding: 12px;
+  border-bottom: 1px solid #e5e7eb;
+  font-size: 14px; 
+
+.invoice-table th {
+  background-color: #f3f4f6;
+  font-weight: 600;
+}
+
+.invoice-table td.text-right {
+  text-align: right;
+}
+
+.invoice-total {
+  text-align: right;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.invoice-paid-info {
+  text-align: right;
+  font-size: 14px;
+  color: #6b7280;
+  margin-bottom: 30px;
+}
+
+/* Phần cuối hóa đơn */
+.invoice-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.invoice-footer p {
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.invoice-footer button {
+  display: flex;
+  align-items: center;
+  background-color: #ef4444;
+  color: white;
+  font-weight: 500;
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.invoice-footer button:hover {
+  background-color: #dc2626;
+}
+
+.invoice-footer button svg {
+  margin-right: 8px;
+}
+}

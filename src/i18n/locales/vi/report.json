@@ -1,0 +1,13 @@
+{
+    "report": {
+      "header": "Lịch sử báo cáo",
+      "content1": "Cảm ơn bạn đã báo cáo",
+      "content2": "Bất kỳ thành viên nào trong cộng đồng Cursus đều có thể báo cáo nội dung cho chúng tôi nếu họ cho rằng nội dung đó vi phạm Quy tắc cộng đồng. Khi một nội dung được báo cáo, nó sẽ không bị xóa ngay lập tức. Nội dung được báo cáo sẽ được xem xét theo các quy tắc sau:",
+      "listItem1": "Nội dung vi phạm",
+      "listItem2": "Nội dung có thể không phù hợp với tất cả đối tượng trẻ em có thể bị giới hạn độ tuổi.",
+      "learnMore": "Tìm hiểu thêm về việc báo cáo nội dung trên Cursus.",
+      "emptyState": "Bạn chưa gửi báo cáo nào.",
+       "CommunityGuidelines": "Quy tắc cộng đồng của chúng tôi",
+      "listItem3": "sẽ bị xóa khỏi Edututs+."
+    }
+  }

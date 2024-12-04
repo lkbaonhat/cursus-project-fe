@@ -1,0 +1,45 @@
+.course-content {
+    a {
+        text-decoration: none;
+    }
+
+    float: left;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+    h3 {
+        font-size: 20px;
+        font-weight: 500;
+        font-family: 'Roboto', sans-serif;
+        text-align: left;
+        margin-bottom: 15px;
+        color: #333;
+        float: left;
+    }
+
+    .course-content-right {
+        float: right;
+        padding-top: 3px;
+        display: flex;
+
+        .expand,
+        .lecture,
+        .lecture-time {
+            display: inline-block;
+            margin-right: 30px;
+            vertical-align: middle;
+
+            span {
+                font-size: 14px;
+                font-weight: 500;
+                font-family: 'Roboto', sans-serif;
+                text-align: left;
+                margin-bottom: 0;
+                color: #333;
+                cursor: pointer;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,10 @@
+{
+    "feedback": {
+      "send_feedback": "Send Feedback",
+      "email_address": "Email address",
+      "describe_issue": "Describe your issue or share your ideas",
+      "add_screenshots": "Add Screenshots",
+      "select_screenshots": "Select screenshots to upload",
+      "drag_drop_screenshots": "or drag and drop screenshots"
+    }
+  }

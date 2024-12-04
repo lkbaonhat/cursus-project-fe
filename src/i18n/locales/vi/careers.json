@@ -1,0 +1,80 @@
+{
+    "careers": {
+      "title": "Lợi ích",
+      "subtitle": "Văn hóa Cursus là điều đặc biệt, và để bổ sung và hỗ trợ văn hóa đó, chúng tôi có một số lợi ích tuyệt vời.",
+      "button1": "Xem Các Vị Trí Trống",
+      "work_from_anywhere": {
+        "title": "Làm việc từ bất cứ đâu"
+      },
+      "work_and_travel": {
+        "title": "Làm việc và Du lịch"
+      },
+      "flexible_hours": {
+        "title": "Giờ làm việc linh hoạt"
+      },
+      "purchasing_leave": {
+        "title": "Mua nghỉ phép"
+      },
+      "social_events": {
+        "title": "Sự kiện xã hội"
+      },
+      "wellness_program": {
+        "title": "Chương trình sức khỏe"
+      },
+      "mentoring_program": {
+        "title": "Chương trình cố vấn"
+      },
+      "fundraising": {
+        "title": "Quỹ gây quỹ"
+      },
+      "tabs": {
+        "tab1": {
+            "title": "Chúng tôi là những người học hỏi"
+            },
+        "tab2": {
+            "title": "Chúng tôi là những người dẫn đường"
+            },
+        "tab3": {
+            "title": "Chúng tôi là toàn cầu"
+            },
+        "tab4": {
+            "title": "Chúng tôi tạo ra tác động"
+            }
+        },
+        "aboutNav": "Giới thiệu",
+        "blogNav": "Blog",
+        "companyNav": "Công ty",
+        "careersNav": "Nghề nghiệp",
+        "pressNav": "Báo chí",
+        "title1": "Chúng tôi là một công ty đầy đam mê, sáng tạo và toàn cầu, hãy đến làm việc với chúng tôi.",
+        "subtitle1": "Làm việc tại Cursus",
+        "subtitle2": "Cursus là một công ty phát triển nhanh chóng và chúng tôi đang mở rộng cả văn phòng Punjab và văn phòng quốc tế của mình.",
+        "button": "Tìm hiểu thêm và ứng tuyển",
+        "roles": [
+          {
+            "title": "Kỹ sư thuật toán",
+            "location": "Ấn Độ"
+          },
+          {
+            "title": "Giám đốc Công nghệ",
+            "location": "Ấn Độ"
+          },
+          {
+            "title": "Chuyên viên Phân tích Tăng trưởng và Marketing Khách hàng",
+            "location": "Ấn Độ"
+          },
+          {
+            "title": "Kỹ sư Dữ liệu",
+            "location": "Ấn Độ"
+          },
+          {
+            "title": "Lập trình viên iOS - Edututs+ San Francisco, CA",
+            "location": "San Francisco, CA"
+          },
+          {
+            "title": "Nhà thiết kế UX cấp cao",
+            "location": "Ấn Độ"
+          }
+        ]
+    }
+}

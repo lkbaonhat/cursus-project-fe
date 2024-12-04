@@ -1,0 +1,55 @@
+.table-container {
+    width: 100%;
+    margin-bottom: 20px;
+
+    .loading-text {
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .filter-table-users {
+        display: flex;
+        float: right;
+        gap: 10px;
+        margin-bottom: 15px;
+
+        input,
+        select {
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+}
+
+.status-text {
+    font-weight: bold;
+    cursor: pointer;
+
+
+
+    &.approved {
+        color: #28a745;
+    }
+
+    &.rejected {
+        color: #ed2a26;
+    }
+}
+
+
+.actions-container-course-mana {
+    cursor: pointer;
+
+
+    .action-icon {
+        font-size: 18px;
+        text-align: center;
+    }
+}

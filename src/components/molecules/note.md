@@ -1,0 +1,1 @@
+chứa những component lớn hơn những component trong folder atom và những component của nó

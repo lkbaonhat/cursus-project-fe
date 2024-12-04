@@ -1,0 +1,14 @@
+
+  {
+    "shopcart": {
+      "home": "Trang chủ",
+      "shopping_cart": "Giỏ hàng",
+      "total": "Tổng cộng",
+      "original_price": "Giá gốc",
+      "discount_price": "Giảm giá",
+      "learn_now_applied": "Học bây giờ đã được áp dụng.",
+      "enter_coupon_code": "Nhập mã giảm giá",
+      "apply": "Áp dụng",
+      "checkout_now": "Thanh toán ngay"
+    }
+  }

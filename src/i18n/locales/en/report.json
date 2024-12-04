@@ -1,0 +1,13 @@
+{
+    "report": {
+      "header": "Report history",
+      "content1": "Thanks for reporting",
+      "content2": "Any member of the Cursus community can flag content to us that they believe violates our Community Guidelines. When something is flagged, it's not automatically taken down. Flagged content is reviewed in line with the following guidelines:",
+      "listItem1": "Content that violates our ",
+      "listItem2": "Content that may not be appropriate for all younger audiences may be age-restricted.",
+      "learnMore": "Learn more about reporting content on Cursus.",
+      "emptyState": "You haven't submitted any reports.",
+      "CommunityGuidelines": "Community Guidelines",
+      "listItem3": "is removed from Edututs+."
+    }
+  }

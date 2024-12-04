@@ -1,0 +1,27 @@
+.explore-page {
+    padding: 30px;
+
+    .container-fluid {
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+
+        .explore-search {
+            margin-bottom: 30px;
+        }
+
+        // Mobile devices (small screens, 600px and down)
+        @media (max-width: 600px) {
+            padding-left: 15px !important;
+            padding-right: 15px !important;
+
+            .explore-search {
+                margin-bottom: 20px;
+            }
+        }
+    }
+    .text-center{
+        font-size: 30px;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif;
+    }
+}

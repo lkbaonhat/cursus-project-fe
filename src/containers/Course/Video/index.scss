@@ -1,0 +1,98 @@
+.leanrning-video-container {
+  font-family: "Roboto", sans-serif;
+  color: #333;
+  padding: 0;
+  margin: 0;
+
+  .header {
+    background-color: black;
+  }
+
+  .content {
+    padding: 0 8%;
+    margin-left: 80px;
+    text-align: left;
+
+    .title {
+      font-size: 28px; // Tăng kích thước font cho tiêu đề
+      font-weight: bold;
+      margin-bottom: 10px;
+      margin-top: 50px;
+    }
+
+    .description {
+      font-size: 16px;
+      color: #686f7a;
+      margin-bottom: 20px; // Tăng khoảng cách dưới mô tả
+      max-height: 400px;
+    }
+
+    .script {
+      margin-top: 50px;
+      margin-bottom: 20px;
+    }
+
+    .links {
+      padding: 0;
+
+
+      li {
+        font-size: 14px;
+        margin: 5px 30px;
+
+
+        a {
+          color: #e88616; // Màu liên kết
+          text-decoration: none;
+
+          &:hover {
+            text-decoration: underline; // Gạch chân khi hover
+          }
+        }
+      }
+    }
+
+    @media (max-width: 1024px) {
+      .script {
+        margin-top: 10px;
+      }
+
+      .links {
+        padding-bottom: 50px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      margin: 0;
+
+      .script {
+        margin-top: 10px;
+      }
+
+      .links {
+        padding-bottom: 50px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      margin: 0;
+      padding-right: 120px;
+
+
+      .script {
+        margin-top: 10px;
+      }
+
+      .links {
+        padding-bottom: 50px;
+      }
+    }
+  }
+
+  .footer {
+    font-size: 12px;
+    color: #999;
+    margin-top: 20px;
+    text-align: left;
+  }
+}

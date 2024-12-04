@@ -1,0 +1,18 @@
+{
+    "thankyou": {
+      "title": "Thank You",
+      "order_confirmed": "Your Order is Confirmed!",
+      "order_number": "Your Order Number:",
+      "click_here": "Click here",
+      "home": "Home",
+      "shop": "Shop",
+      "contact_us": "Contact Us",
+      "about_us": "About Us",
+      "newsletter": "Newsletter",
+      "faqs": "FAQs",
+      "privacy_policy": "Privacy Policy",
+      "terms": "Terms",
+      "copyright": "© 2023 Cursus. All Rights Reserved.",
+      "backhome": "Back home"
+    }
+  }

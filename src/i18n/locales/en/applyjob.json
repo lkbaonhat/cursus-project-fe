@@ -1,0 +1,29 @@
+{
+    "applyjob": {
+      "home": "Home",
+      "career": "Career",
+      "dataengineer": "Data Engineer",
+      "applyforthisjob":"Apply For This Job",
+      "whatwillyoubedoing": "What you’ll be doing",
+      "whatarewelookingfor":"What we’re looking for",
+      "whoshouldapply":"Who should apply?",
+      "whatnext":"What next?",
+      "submitapplication":"Submit Your Application",
+      "fullname":"Full Name",
+      "email":"Email Address",
+      "phone":"Phone Number",
+      "gender":"Gender",
+      "male":"Male",
+      "female":"Female",
+      "cv":"Resume/CV*",
+      "attach":"Attach Resume/CV",
+      "links":"Links",
+      "linkedln":"Linkedln URL",
+      "twitter":"Twitter URL",
+      "portfolio":"Portfolio URL",
+      "other":"Other website URL",
+      "additional":"Additional Information",
+      "add":"Add a cover letter or anything else you want to share.",
+      "submit":"Submit Application"
+    }
+  }

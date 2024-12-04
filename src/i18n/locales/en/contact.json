@@ -1,0 +1,16 @@
+{
+    "contact": {
+      "title": "Contact Us",
+      "help_center": "Help Center",
+      "blog": "Blog",
+      "careers": "Careers",
+      "developer_area": "Developer Area",
+      "contact_information": "Contact Information",
+      "main_address": "Main Address:",
+      "address": "#1235 Sks Nagar St No. 8 Phase 3, Pakhowal Road, 141001, LDH, Punjab, India",
+      "email_address": "Email Address:",
+      "email": "example@email.com",
+      "phone_number": "Phone Number:",
+      "phone": "+84 123 456 789"
+    }
+  }

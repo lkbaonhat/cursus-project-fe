@@ -1,0 +1,67 @@
+.card-sale-year {
+    background: #fff !important;
+    border: 1px solid #efefef !important;
+    border-radius: 3px !important;
+    margin-top: 30px;
+
+
+    .card-header {
+        padding: 16px 20px;
+        background-color: #fff !important;
+        border-bottom: 1px solid #efefef !important;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        h2 {
+            font-size: 18px !important;
+            font-weight: 600 !important;
+            color: #333 !important;
+            margin: 0;
+            flex: 1;
+        }
+
+        .year-select-container {
+            display: flex;
+            align-items: center;
+
+            .year-label {
+                margin-right: 8px;
+                font-size: 16px;
+                font-weight: 500;
+                color: #333;
+            }
+
+            select {
+                padding: 0.5em 1em;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                font-size: 1em;
+                cursor: pointer;
+                background-color: #f9f9f9;
+
+
+                &:hover,
+                &:focus {
+                    border-color: #000000;
+                    outline: none;
+                    background-color: #fff;
+                }
+            }
+        }
+
+    }
+
+    .card-sale-year-body {
+        padding: 40px;
+
+        canvas {
+            width: 1299px;
+        }
+    }
+}
+
+canvas {
+    max-width: 100%;
+    height: auto;
+}

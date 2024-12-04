@@ -1,0 +1,14 @@
+{
+    "login": {
+      "welcome_back": "Chào mừng trở lại",
+      "login_to_account": "Đăng nhập vào tài khoản Cursus của bạn!",
+      "email": "Email",
+      "password": "Mật khẩu",
+      "invalid_email": "Email không hợp lệ",
+      "invalid_password": "Mật khẩu phải chứa ít nhất 6 ký tự",
+      "forgot_password": "Quên mật khẩu",
+      "send": "Gửi",
+      "dont_have_account": "Bạn chưa có tài khoản?",
+      "sign_up": "Đăng ký"
+    }
+  }

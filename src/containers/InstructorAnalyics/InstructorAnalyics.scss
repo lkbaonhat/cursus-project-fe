@@ -1,0 +1,29 @@
+.instructor-analyics{
+    padding: 20px 40px;
+    h2{
+        font-size: 20px;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        i{
+            margin-right: 10px;
+        }
+    }
+    .chart-header-container{
+        .chart-sub{
+            margin-top: 20px;
+        }
+        .chart-visit{
+            margin-top: 20px;
+        }
+        .chart-sale{
+            margin-top: 20px;
+        }
+    }
+    .sale-of-year-container{
+        margin-top: 30px;
+    }
+    .table-course-container{
+        margin-top: 30px;
+    }
+}

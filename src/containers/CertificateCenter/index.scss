@@ -1,0 +1,316 @@
+//title
+.t-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 550px;
+  background-color: #333;
+  color: #ffff;
+  text-align: center;
+
+  h1 {
+    font-size: 42px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+  }
+
+  p {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+  }
+
+  //Responsive
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 38px;
+    }
+
+    p {
+      font-size: 20px;
+    }
+  }
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+
+  img {
+    width: 120px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+  }
+
+  .img-mark {
+    width: 60px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+  }
+
+  //Responsive
+  @media (max-width: 768px) {
+    img {
+      width: 100px;
+    }
+
+    .img-mark {
+      width: 40px;
+    }
+  }
+}
+
+.start-btn {
+  background-color: #ed2a26;
+  color: #ffff;
+  border: none;
+  padding: 10px 70px;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 50px;
+
+  &:hover {
+    background-color: #c72127;
+  }
+}
+
+//--------------------------End title CSS---------------------------------
+
+//input
+
+.i-container {
+  padding: 30px 0 70px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+
+  h2 {
+    margin: 40px 0px;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+  }
+}
+
+.i-wrapper {
+  display: flex;
+  flex: 1;
+  align-items: flex-start;
+  margin-left: 50px;
+
+  input {
+    margin-right: 20px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 10px;
+    width: 300px;
+  }
+
+  .select-container {
+    position: relative;
+    width: 100%;
+
+    select {
+      margin-right: 20px;
+      border: 1px solid #ced4da;
+      border-radius: 4px;
+      width: 300px;
+      color: #686f7a;
+      padding: 10px 40px 10px 15px;
+      cursor: pointer;
+    }
+
+    option {
+      padding: 10px;
+      font-size: 16px;
+      color: #000;
+    }
+
+    .icon {
+      pointer-events: none;
+      position: absolute;
+      top: 50%;
+      right: 25px;
+      transform: translateY(-50%);
+      color: #888;
+    }
+  }
+
+  .error-text {
+    color: red;
+    font-size: 14px;
+    bottom: -18px;
+    left: 0;
+    margin-top: 5px;
+  }
+
+  //Responsive
+  @media (max-width: 1024px) {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    padding-right: 20px;
+
+    input {
+      width: calc(100% - 10px);
+    }
+
+    .select-container {
+      select {
+        width: calc(100% - 10px);
+      }
+
+      .icon{
+        right: 15px;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: stretch;
+    margin-right: 50px;
+
+    input {
+      margin-top: 10px;
+      margin-bottom: 20px;
+      width: 100%;
+    }
+
+    .select-container {
+      select {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        width: 100%;
+      }
+
+      .icon{
+        right: 5px;
+      }
+    }
+  }
+
+  @media (max-width: 480px) {
+    padding: 0;
+
+    input {
+      margin-left: 50px;
+      width: 70%;
+    }
+
+    .select-container {
+      select {
+        margin-left: 50px;
+        width: 70%;
+      }
+
+      .icon{
+        right: 50px;
+      }
+    }
+
+    .error-text {
+      margin-left: 50px;
+    }
+  }
+}
+
+.fi-btn {
+  background-color: #ed2a26;
+  color: #ffff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 70px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #c72127;
+  }
+
+  @media (max-width: 1024px) {
+    width: 31%;
+    padding: 10px 0;
+    margin-bottom: 40px;
+  }
+
+  @media (max-width: 768px) {
+    margin: 30px 0 10px 0;
+    width: 100%;
+    padding: 10px;
+  }
+
+  @media (max-width: 480px) {
+    margin-left: 70px;
+    width: 50%;
+  }
+}
+
+.result {
+  margin-top: 20px;
+
+  h3,
+  p {
+    padding: 5px;
+  }
+}
+
+//--------------------------End input CSS---------------------------------
+
+//Description
+.d-container {
+  background-color: rgb(255, 249, 249);
+  padding: 60px;
+  text-align: center;
+
+  h2 {
+    margin: 10px 0px;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .subtitle {
+    color: #777;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    font-family: "Roboto", sans-serif;
+  }
+}
+
+.description {
+  max-width: 800px;
+  margin: 0 auto 40px;
+  font-size: 14px;
+  line-height: 1.8;
+  color: #686f7a;
+  font-family: "Open Sans", sans-serif;
+}
+
+.d-button {
+  background-color: #ed2a26;
+  color: #ffff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 70px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #c72127;
+  }
+}
+
+//--------------------------End description CSS---------------------------------

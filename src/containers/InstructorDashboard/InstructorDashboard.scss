@@ -1,0 +1,130 @@
+.instructor-dashboard{
+    font-family: 'Roboto', sans-serif;
+    padding: 30px 50px 0 50px;
+    .instructor-dashboard-title{
+        display: flex;
+        align-items: center;
+        font-size: 20px;
+
+        .title-icon{
+            display: flex;
+            align-items: center;
+            width: fit-content;
+
+            .title-iconDashboard{
+                font-size: 20px;
+            }
+        }
+
+        .title-content{
+            color: #333;
+            font-weight: 500;
+            margin: 0;
+            padding: 0 0 0 10px;
+            
+        }
+    }
+
+    .instructor-statistics-item{
+        display: flex;
+        margin-top: 30px;
+        align-items: center;
+        background-color: var(--background);
+        justify-content: space-around;
+        height: 146px;
+        border: 1px solid #e5e5e5 !important;
+            
+        .instructor-statistics-item-left{
+            padding: 20px;
+
+            .instructor-statistics-item-text-title{
+                margin: 0 0 15px;
+                color: #333;
+                font-size: 16px;
+            }
+            .instructor-statistics-item-text-value{
+                font-size: 25px;
+                font-weight: 600;
+            }
+
+            .instructor-statistics-item-text-value-sale{
+                background-color: #ffc136;
+                padding: 5px 10px;
+                border-radius: 3px;
+                font-size: 12px;
+                font-weight: 500;
+                color: #fff;
+            }
+            .instructor-statistics-item-text-value-enroll{
+                background-color: #c182f9;
+                padding: 5px 10px;
+                border-radius: 3px;
+                font-size: 12px;
+                font-weight: 500;
+                color: #fff;
+            }
+            .instructor-statistics-item-text-value-courses{
+                background-color: #ffa052;
+                padding: 5px 10px;
+                border-radius: 3px;
+                font-size: 12px;
+                font-weight: 500;
+                color: #fff;
+            }
+            .instructor-statistics-item-text-value-student{
+                background-color: #cca1ff;
+                padding: 5px 10px; 
+                border-radius: 3px;
+                font-size: 12px;
+                font-weight: 500;
+                color: #fff;
+            }
+        }
+        .instructor-statistics-item-right{
+            padding: 15px 0;
+
+            .image-item{
+                width: 70px;
+            }
+        }
+    }
+
+    .card-dash{
+        background-color: var(--background);
+        width: 100%;
+        margin: 30px 0 0;
+        padding: 30px 20px;
+        float: left;
+        border: 1px solid #e5e5e5 !important;
+        .card-dash-title{
+            float: left;
+            display: flex;
+            padding: 5px;
+            margin: 5px;
+            align-items: center;
+            .card-dash-title-icon{
+                display: flex;
+                align-items: center;
+                .card-dash-icon{
+                    font-size: 30px;
+                    color: var(--color-description);
+                    font-weight: 200px;
+                }
+            }
+            .card-dash-title-text{
+                color: #333;
+                margin: 0;
+                font-size: 24px;
+            }
+        }
+        .card-dash-title-button{
+            float: right;
+        }
+    }
+}
+@media (max-width: 575.98px) {
+    .card-dash-title-button{
+        float: left !important;
+        margin-top: 30px;
+    }
+}

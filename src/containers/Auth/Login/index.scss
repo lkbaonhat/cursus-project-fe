@@ -1,0 +1,128 @@
+.login-page {
+    .form-login {
+        .title {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 20px;
+
+            p:first-child {
+                font-size: 1.9rem;
+                font-weight: 700;
+                margin-bottom: 15px;
+            }
+
+            p:last-child {
+                font-size: 1.02rem;
+                font-weight: 300;
+                margin-bottom: 20px;
+            }
+        }
+
+        &__input {
+            width: 100%;
+            margin-bottom: 20px;
+
+            .group {
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 20px;
+                height: 67px;
+
+                .group-input {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 53px;
+                    border: 1px solid rgb(189, 189, 189);
+                    border-radius: 4px;
+                    // margin-bottom: 20px;
+
+                    .icon {
+                        width: 23px;
+                        height: 28px;
+                        // padding: 0 15px;
+                        margin: 0 15px;
+                    }
+
+                    .eye {
+                        margin-right: 9px;
+                        cursor: pointer;
+                    }
+
+                    input {
+                        width: 100%;
+                        height: 50px;
+                        border: 1px solid rgb(189, 189, 189);
+                        border-radius: 5px;
+                        background-color: white;
+                        color: rgb(24, 24, 24);
+                        font-size: 1.02rem;
+                        border: none;
+                        transition: all 0.3s;
+
+                        &:focus {
+                            outline: none;
+                        }
+                    }
+
+                    &:focus-within {
+                        border: 1px solid rgb(68, 68, 68);
+                    }
+                }
+
+                .input-error {
+                    border: 1px solid rgb(228, 3, 3) !important;
+                    margin-bottom: 0;
+                }
+
+                .error {
+                    text-align: start;
+                    color: rgb(228, 3, 3);
+                    font-size: 0.9rem;
+                }
+            }
+
+            .forgot-password {
+                width: 100%;
+                // margin-top: -10px;
+                text-align: end;
+
+                a {
+                    color: rgb(219, 0, 0);
+                    font-size: 1rem;
+                    text-decoration: none;
+                    transition: all 0.3s;
+
+                    &:hover {
+                        color: rgb(201, 0, 0);
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+
+        .action-button {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .register {
+            margin-top: 35px;
+            text-align: center;
+
+            a {
+                color: rgb(234, 0, 0);
+                font-size: 1rem;
+                text-decoration: none;
+                margin-left: 8px;
+
+                &:hover {
+                    color: rgb(201, 0, 0);
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}

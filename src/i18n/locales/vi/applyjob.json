@@ -1,0 +1,29 @@
+{
+  "applyjob": {
+    "home": "Trang chủ",
+    "career": "Nghề nghiệp",
+    "dataengineer": "Kỹ sư dữ liệu",
+    "applyforthisjob":"Xin công việc này",
+    "whatwillyoubedoing": "Bạn sẽ làm gì",
+    "whatarewelookingfor":"Chúng tôi đang tìm kiếm những gì",
+    "whoshouldapply":"Ai nên xin?",
+    "whatnext":"Tiếp theo là gì?",
+    "submitapplication":"Gửi đơn đăng ký của bạn",
+    "fullname":"Tên đầy đủ",
+    "email":"Địa chỉ email",
+    "phone":"Số điện thoại",
+    "gender":"Giới tính",
+    "male":"Nam",
+    "female":"Nữ",
+    "cv":"Sơ yếu lý lịch/CV*",
+    "attach":"Đính kèm sơ yếu lý lịch/CV",
+    "links":"Liên kết",
+    "linkedln":"Linkedln URL",
+    "twitter":"Twitter URL",
+    "portfolio":"Portfolio URL",
+    "other":"URL trang web khác",
+    "additional":"Thông tin bổ sung",
+    "add":"Thêm thư xin việc hoặc bất cứ điều gì khác mà bạn muốn chia sẻ.",
+    "submit":"Nộp đơn"
+  }
+}

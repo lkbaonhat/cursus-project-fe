@@ -1,0 +1,13 @@
+{
+    "shopcart": {
+      "home": "Home",
+      "shopping_cart": "Shopping Cart",
+      "total": "Total",
+    "original_price": "Orignal Price",
+    "discount_price": "Discount Price",
+    "learn_now_applied": "Learn now is applied.",
+    "enter_coupon_code": "Enter Coupon Code",
+    "apply": "Apply",
+    "checkout_now": "Checkout Now"
+    }
+  }

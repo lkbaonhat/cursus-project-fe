@@ -1,0 +1,159 @@
+.signup-page {
+  .form-signup {
+    .title {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 20px;
+
+      p:first-child {
+        font-size: 1.8rem;
+        font-weight: 700;
+        margin-bottom: 15px;
+      }
+
+      p:last-child {
+        font-size: 1.02rem;
+        font-weight: 300;
+        margin-bottom: 20px;
+      }
+    }
+
+    &__input {
+      width: 100%;
+      margin-bottom: 20px;
+
+      //Description
+      .group {
+        display: flex;
+        flex-direction: column;
+        margin: 30px 0;
+        height: auto;
+
+
+        .group-input {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          height: 53px;
+          border: none;
+          border-radius: 4px;
+          // margin-bottom: 20px;
+
+          textarea {
+            width: 100%;
+            padding: 0.5rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            resize: none;
+            min-height: 100px;
+            font-size: 16px;
+          }
+
+          &:focus-within {
+            border: 1px solid rgb(68, 68, 68);
+          }
+        }
+
+        .input-error {
+          textarea {
+            border: 1px solid rgb(228, 3, 3) !important;
+            margin-bottom: 0;
+          }
+        }
+
+        .error-d {
+          color: rgb(228, 3, 3);
+          font-size: 0.9rem;
+          margin-top: 30px;
+          display: block;
+          text-align: left;
+        }
+      }
+
+      //Select
+      .group-select {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        height: auto;
+
+        .group-input-select {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 65px;
+          border: none;
+          border-radius: 4px;
+          // margin-bottom: 20px;
+
+          .select-container {
+            position: relative;
+            width: 100%;
+
+            select {
+              background-color: transparent;
+              font-size: 16px;
+              color: #686f7a;
+              cursor: pointer;
+
+              option {
+                font-size: 16px;
+                color: #686f7a;
+                background-color: transparent;
+              }
+            }
+
+            .icon {
+              position: absolute;
+              pointer-events: none;
+              top: 50%;
+              right: 10px;
+              transform: translateY(-50%);
+              color: #888;
+            }
+          }
+
+        }
+
+        .error {
+          text-align: start;
+          color: rgb(228, 3, 3);
+          font-size: 0.9rem;
+        }
+      }
+    }
+
+    .para {
+      text-align: left;
+      font-size: 13px;
+      color: grey;
+      margin: 1.5rem 0;
+      padding-left: 0.25rem;
+    }
+
+    .action-button {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+
+    .login {
+      margin-top: 35px;
+      text-align: center;
+
+      a {
+        color: rgb(234, 0, 0);
+        font-size: 1rem;
+        text-decoration: none;
+        margin-left: 8px;
+
+        &:hover {
+          color: rgb(201, 0, 0);
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+.container{
+    font-family: 'Roboto', sans-serif;
+    padding: 5px;
+
+    .new-cursus{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        .new-cursus-title{
+            font-size: 18px;
+            margin-bottom: 24px;
+        }
+        .new-cursus-background-content{
+            background-color: #fff;
+            padding: 20px 15px;
+            display: flex;
+            flex-direction: column;
+            .p1{
+                font-size: 14px;
+                font-weight: 400;
+                border-bottom: 1px dashed #efefef;
+                color: #333;
+                padding: 0 10px 15px;
+                margin: 0;
+                &:hover{
+                    text-decoration: underline;
+                    cursor: pointer;
+                }
+            }
+            .p2{
+                font-size: 14px;
+                font-weight: 400;
+                border-bottom: 1px dashed #efefef;
+                color: #333;
+                padding: 15px 10px;
+                margin: 0;
+                &:hover{
+                    text-decoration: underline;
+                    cursor: pointer;
+                }
+            }
+            .p3{
+                font-size: 14px;
+                font-weight: 400;
+                color: #333;
+                padding: 15px 10px 0;
+                margin: 0;
+                &:hover{
+                    text-decoration: underline;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,14 @@
+.shopping-cart {
+
+    .no-cart {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            width: 1000px;
+            height: 500px;
+        }
+    }
+}

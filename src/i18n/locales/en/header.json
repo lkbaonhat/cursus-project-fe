@@ -1,0 +1,14 @@
+{
+  "header": {
+    "cncourse": "Create New Courses",
+    "search": "Search for Tuts Videos, Tutors, Tests and more..",
+    "login": "Login",
+    "dashboard":"Cususs Dashboard",
+    "setting": "Setting",
+    "feedback":"Feedback",
+    "signout": "Sign out",
+    "backto": "Back to Cursus",
+    "backtocourses": "Back to Course",
+    "download_certificate": "Download Certificate"
+  }
+}
